@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25 Boxes Responsive Page</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        height: 100vh;
+      }
+
+      .box {
+        width: calc(20% - 20px);
+        height: calc(20% - 20px);
+        background-color: #b1fff8;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 50px;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        font-size: large;
+      }
+
+      @media screen and (max-width: 768px) {
+        .box {
+          width: calc(30% - 20px);
+          height: calc(30% - 20px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container">
+        <div class="box">Branding</div>
+        <div class="box">Web Design (WordPress)</div>
+        <div class="box">Web Design (Front-end)</div>
+        <div class="box">Web Design (Back-end)</div>
+        <div class="box">Application Design(Windows & Android & IOS etc)</div>
+        <div class="box">UI & UX Design</div>
+        <div class="box">Graphic Design</div>
+        <div class="box">Video Production and Editing</div>
+        <div class="box">Animation Production</div>
+        <div class="box">Music and Podcast Production</div>
+        <div class="box">SEO</div>
+        <div class="box">Content Creation & Editing & Rewriting on Various Topics</div>
+        <div class="box">Advertising & Social media & Mail Content Production</div>
+        <div class="box">Website & Social media Administration & Management</div>
+        <div class="box">Article Writing & Scientific Content Production</div>
+        <div class="box">2D & 3D Design</div>
+        <div class="box">Digital art & Character Design</div>
+        <div class="box">Interior Design</div>
+        <div class="box">Industrial Design</div>
+        <div class="box">Product & Packaging Design</div>
+        <div class="box">Print Design</div>
+        <div class="box">Game Design & Development</div>
+        <div class="box">Artificial Intelligence Projects</div>
+        <div class="box">Hardware Design & Programming (Robotics & IOT etc)</div>
+        <div class="box">and so on ...</div>
+      </div>
+    </div>
+  </body>
+</html>
